@@ -1,0 +1,98 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    font-family: 'Raleway'
+}
+
+body 
+{
+    overflow: hidden
+}
+
+nav 
+{
+    width: 100vw;
+    padding: 1rem;
+    background: #2ecc71;
+    color: white
+}
+
+.slider 
+{
+    padding: 100px 0px;
+    margin: 0px auto !important;
+    width: 50vw;
+}
+
+.slider-images 
+{
+    width: 50vw;
+    height: 30vw;
+    position: relative !important;
+    margin: 0px auto !important;
+}
+
+.slider-img 
+{
+    position: absolute !important; 
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0 !important;
+    z-index: 1 !important;
+    transition: all 1s !important
+}
+
+.selected-slider-img 
+{
+    opacity: 1 !important;
+    transition: all 1s !important
+}
+
+.slider-img img 
+{
+    width: 100% !important;  
+    height: 100% !important;
+}
+
+.slider-buttons 
+{
+    margin-top: 10px !important; 
+    text-align: center !important
+}
+
+.slider-buttons button 
+{
+    background: none;
+    color: black;
+    padding: 0.5rem 0.7rem;
+    border: 0px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.slider-buttons .selected-button
+{
+    background: #e74c3c;
+    color: white;
+    border-radius: 1px
+
+}
+
+.slider-buttons .next 
+{
+    float: right;
+    background: #e74c3c;
+    color: white;
+    padding: 0.5rem 1rem
+}
+
+.slider-buttons .prev
+{
+    float: left;
+    background: #e74c3c;
+    color: white;
+    padding: 0.5rem 1rem
+}
